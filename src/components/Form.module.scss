@@ -1,0 +1,46 @@
+.form {
+    width: 100%; 
+}
+
+.formGroup{
+    display: flex;
+    position: relative;
+    right: 15%;
+    margin-right: auto;
+    margin-left: auto;
+
+    color:  #4B5563;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.input{
+    max-width: 370px;
+    max-height: 44px;
+    box-shadow: 0px 1px 2px 0px #00000012;
+    border: 1px solid #D1D5DB
+}
+
+.container{
+    display: flex;
+    flex: 2 1;
+    justify-content: flex-end;
+    margin: 10px 0;
+
+}
+
+.title{
+    margin-left: 2px;
+    font-size: 10px;
+    color: #999da1;
+}
+
+@media (max-width:710px){
+    .formGroup{
+        right: 0;
+    }
+    .button{
+        top: 0;
+    }
+}
