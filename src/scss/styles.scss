@@ -1,6 +1,6 @@
 $primary: #4f46e5;
 
-@import 'bootstrap/scss/bootstrap';
+@import './node_modules/bootstrap/scss/bootstrap';
 
 .btn {
   padding: 12px 16px;
@@ -23,7 +23,8 @@ $primary: #4f46e5;
 }
 
 .btn-light {
-  color: rgba(79, 70, 229, 1);
+  color: $primary;
   background-color: #f8f9fa;
   border-color: #f8f9fa;
 }
+
