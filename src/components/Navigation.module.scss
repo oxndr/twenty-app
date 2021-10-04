@@ -1,3 +1,5 @@
+@use "sass:math";
+
 $base: 29px;
 
 * {
@@ -46,7 +48,7 @@ $base: 29px;
   width: $base * 1.5;
   height: $base * 1.5;
   top: 0;
-  right: $base / 1.35 * -1;
+  right: math.div($base, 1.35) * -1;
   border-top-right-radius: 5px;
   transform: scale(0.707) rotate(45deg);
   box-shadow: 1px -1px #e6e7eb;
@@ -96,7 +98,7 @@ $base: 29px;
     content: '';
     width: $base * 1;
     height: $base * 1;
-    right: $base / 2 * -1;
+    right: $base * 0.5 * -1;
     transform: scale(0.707) rotate(45deg);
   }
 }
