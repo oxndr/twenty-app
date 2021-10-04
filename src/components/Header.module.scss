@@ -13,3 +13,10 @@ h1.header__price {
   height: 100%;
   width: 100%;
 }
+
+@media (max-width: 710px){
+  h1.header__price {
+    font-size: 100px;
+  }
+  
+}

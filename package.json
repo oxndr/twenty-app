@@ -3,12 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@hookform/resolvers": "^2.8.1",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^5.1.1",
     "eslint-plugin-prettier": "^4.0.0",
     "libphonenumber-js": "^1.9.34",
+    "little-state-machine": "^4.1.2",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.4",
     "react-confetti": "^6.0.1",
@@ -20,7 +22,8 @@
     "sass": "^1.42.1",
     "sweetalert2": "^11.1.7",
     "web-vitals": "^1.1.2",
-    "yup": "^0.32.9"
+    "yup": "^0.32.9",
+    "yup-phone": "^1.2.19"
   },
   "scripts": {
     "start": "react-scripts start",
