@@ -1,4 +1,5 @@
 {
+  "homepage": "https://oxndr.github.io/twenty-app",
   "name": "twenty-app",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +10,7 @@
     "@testing-library/user-event": "^12.8.3",
     "bootstrap": "^5.1.1",
     "eslint-plugin-prettier": "^4.0.0",
+    "gh-pages": "^3.2.3",
     "libphonenumber-js": "^1.9.34",
     "little-state-machine": "^4.1.2",
     "react": "^17.0.2",
@@ -26,6 +28,8 @@
     "yup-phone": "^1.2.19"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
